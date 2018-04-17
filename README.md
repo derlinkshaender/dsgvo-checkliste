@@ -12,47 +12,26 @@ Jede Website muss bis zum 25. Mai 2018 der DSGVO entsprechen. Da sich jeder Webs
 
 ## Checkliste
 
-- [ ] **Verwendung von Google Fonts vermeiden**
-- [ ] **Cookie-Hinweis einbunden**
-	- Hinweis darf nicht Link zu Impressum oder Datenschutzerklärung verdecken
-- [ ] **Datenschutzerklärung** ergänzen/aktualisieren
-	- Möglicher Generator: https://dsgvo-muster-datenschutzerklaerung.dg-datenschutz.de/
-- [ ] **SSL-Verschlüsselung** aktivieren
-- [ ] **Google-Analytics** rechtskonform einsetzen
-	- [ ] Vertrag zur Auftragsdatenverarbeitung abschließen (schriftlich und digital)
-	- [ ] IP Anonymisierung einbinden
-	- [ ] Datenschutzerklärung anpassen
-	- [ ] Opt Out Cookies + Link zu Browser PlugIn setzen
-- [ ] **statische Share-Buttons** einsetzen
-- [ ] **Impressum und Datenschutz von Suchmaschinen ausschließen**
+Hinweis: Diese Liste ist alphabetisch sortiert und **nicht** nach der Wichtigkeit der einzelnen Punkte.
 
-- [ ] **Checkbox für Kommentare** einbinden
-	- Mögliches WordPress-Plugin: https://wordpress.org/plugins/wp-gdpr-compliance/
+* [Anti-Spam Plugins](antispam-plugins.md)
+* [Cookies](cookies.md)
+* [Datenschutzerklärung](datenschutzerklaerung.md)
+* [Google Analytics](google-analytics.md)
+* [Google Webfonts](google-webfonts.md)
+* [Gravatar](gravatar.md)
+* [Impressum](impressum.md)
+* [IP-Adressen](ip-adressen.md)
+* [Kommentare und Kommentar-Plugins](kommentare.md)
+* [Newsletter und Double Opt-In](newsletter.md)
+* [Share-Button für Social Media](share-buttons.md)
+* [SSL-Verschlüsselung](ssl.md)
 
-Mögliche Formulierung:
-```plain
-Ich akzeptiere die Datenschutzbestimmungen. Weitere Informationen dazu findest du in der Datenschutzerklärung].
-```
 
-- [ ] **Double-Opt-In-Verfahren für das Abonnieren der Kommentare via Mail**
-- Mögliches WordPress-Plugin: https://de.wordpress.org/plugins/subscribe-to-comments-reloaded/
-
-- [ ] **Akismet Anit-Spam darf nicht verwendet werden**
-
-- [ ] **Double-Opt-In für Newsletter**
-
-- [ ] **Auftragsdatenverarbeitungsvertrag mit Newsletter-Anbieter** abschließen
-
-- [ ] **Gravatar deaktivieren**
-
-- [ ] **Überprüfung von externen Ressourcen**
-
-- [ ] **IP-Adressen beim Kommentieren nicht speichern**
-
-- [ ] **Alte IP-Adressen bei Kommentaren löschen**
 
 ## Links
-*Die Checkliste basiert auf folgenden Links.*
+
+Die Checkliste basiert auf folgenden Links
 
 - [DSGVO – Leitfaden für Blogger](https://lesefreude.at/dsgvo-leifaden-fuer-blogger/)
 - [DSGVO – Warum Google Fonts nicht von Google kommen sollten](https://www.7media.de/wp-coaching/dsgvo-neue-datenschutz-anforderungen/)
@@ -67,8 +46,10 @@ Ich akzeptiere die Datenschutzbestimmungen. Weitere Informationen dazu findest d
 - [Wie setze ich die Anforderungen der DSGVO für meine Website um?](https://www.socialmedia-betreuung.de/dsgvo/)
 - [DSGVO Checkliste für Blogger: Wie setze ich die Datenschutz-Grundverordnung für mein Weblog um?](https://datenschmutz.net/dsgvo-checkliste-fuer-blogs/)
 - [Fragen zur Vorbereitung auf die DS-GVO (PDF-Download)](https://www.lfd.niedersachsen.de/download/124239)
+- [Tipps für die Blogumstellung auf DSGVO-Konformität](https://www.arminhanisch.de/2018/03/dsgvo-umstellung/)
 
-*Podcasts zum Thema:*
+
+Podcasts zum Thema
 
 - [Rechtsbelehrung (Folge 54) – DSGVO: Alles zur EU-Datenschutzgrundverordnung](https://rechtsbelehrung.com/dsgvo-alles-zur-eu-datenschutzgrundverordnung-rechtsbelehrung-folge-54-jura-podcast/)
 - [Working Draft (Revision 336) – DSGVO](http://workingdraft.de/336/)
