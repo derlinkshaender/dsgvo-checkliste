@@ -1,11 +1,14 @@
-# Google WebFonts
+Google WebFonts
 
 ## Wo ist das Problem?
 
-Viele Websites nutzen aus dem Internet eingebettete Schriftarten, sei es Google Webfonts oder Adobe Typekit und andere.
-Damit lassen sich ansprechende Seitene erstellen, das Laden der Schriftart-Dateien von einer externen Quelle übermittelt
-aber Daten an den Anbieter der Schriftarten (z.B: Google). Damit lassen sich Profiling betreiben bzw. werden Daten übetragen,
-die laut DSGVO als personenbezogene Daten gelten.
+Viele Websites nutzen aus dem Internet eingebettete Schriftarten, sei es Google Webfonts, die Icon-Schriftart FontAwesome oder Adobe Typekit und andere.
+Damit lassen sich ansprechende Seiten erstellen, das Laden der Schriftart-Dateien von einer externen Quelle übermittelt
+aber personenbezogene Daten an den Anbieter der Schriftarten (z.B. Google), ohne das hierzu vorher die Einwilligung des Nutzers erteilt wurde. Damit lassen sich Profiling betreiben bzw. werden Daten übetragen, die laut DSGVO als personenbezogene Daten gelten.
+
+## Wie finde ich heraus, ob ich betroffen bin?
+
+Zur Überprüfung, ob auf der eigenen Homepage Schriften aus externen Quellen eingebunden sind, eignet sich der Dienst "Webbkoll" (https://webbkoll.dataskydd.net/en/). Dort trägt man die URL seiner Seite ein und klickt auch "Check". Auf der Ergebnisseite tauchen Anfragen zur entfernten Schriftarten-Dateien im Bereich "Third-Party-Requests" auf. Bei Google Fonts wird zum Beispiel Kontakt zum Server "fonts.gstatic.com" aufgenommen. Findet sich also ein derartiger Eintrag bei den Ergebnissen, sollten Sie einen der unten genannten Schritte unternehmen.
 
 ## Wie lässt sich das Problem lösen?
 
@@ -16,8 +19,11 @@ die laut DSGVO als personenbezogene Daten gelten.
 
 Gar nicht.
 
-Die einfachchste Lösung, aber auch die typographisch langweiligste. Sie benutzen einfach nur Standard-Schriftarten, die der Browser der Besucher unterstützt. Falls Sie gerade mit einem Webauftritt beginen, ist das eine einfache Lösung, die Sie später jederzeit ausbauen können durch die Schritte weiter unten.
+Die einfachste Lösung, aber auch die typographisch langweiligste. Sie benutzen einfach nur Standard-Schriftarten, die der Browser der Besucher unterstützt. Falls Sie gerade mit einem Webauftritt beginnen, ist das eine einfache Lösung, die Sie später jederzeit ausbauen können durch die Schritte weiter unten.
 
+Wenn Sie für Ihre Homepage ein Content-Management-System nutzen (CMS), wie zum Beispiel Wordpress, Joomla oder Drupal, dann sollten Sie sich für ein Design/Theme entscheiden, welches auf die Einbindung von Google Fonts verzichtet. Für Wordpress wäre ein entsprechendes Theme z.B. Hueman (https://wordpress.org/themes/hueman/).
+
+Teilweise werden aber externe Schriften auch durch Erweiterungen (Plugins) aufgerufen, die im CMS installiert sind. Sollte also der Aufruf externer Schriften nicht durch den Wechsel des Themes unterbunden werden können, sollte man prüfen, ob die Deaktivierung einzelner Plugins zur Lösung beitragen kann.
 
 ## Die benötigten Schriftarten lokal auf dem eigenen Webauftritt ablegen
 
@@ -66,4 +72,4 @@ Diese externe URL, die auf die Google Font-Server zeigt, ersetzen Sie nun durch 
 
 Durchsuchen Sie alle nun alle CSS-Dateien nach entsprechenden Einträgen und tauschen Sie die Angabe der Schriftart aus.
 
-
+Bei einigen Wordpress-Themes erfolgt der Aufruf der externen Schriften durch einen Eintrag in einer PHP-Datei. Diese muss dann noch zusätzlich angepasst werden. Das Vorgehen wird in diesem Video erklärt: https://t.co/dBmENnG4GZ
